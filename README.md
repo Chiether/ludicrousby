@@ -38,9 +38,12 @@ CONTRIBUTING
 ------------
 Cheer! please contributing your idea, code, weeding.
 
-My first language are Japanese. maybe I have a little wrong grammer.
+My first language are Japanese. maybe I have a little trouble(wrong grammer, etc...).
+
 But.. We have no fear! because we are perfectly Alphan-citizen.
+
 Lets say: HAPPINESS IS MANDATORY!
+
 
 ### post your idea
 create new issues.

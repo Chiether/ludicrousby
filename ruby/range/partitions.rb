@@ -1,6 +1,6 @@
 class Range
-  # @param [Fixnum] partitions number of partitions.
-  # @param [Fixnum] after_decimal number of after the decimal point. default:0.
+  # @param [Integer] partitions number of partitions.
+  # @param [Integer] after_decimal number of after the decimal point. default:0.
   # @return [Array<Range>] partitioning results.
   # @example desired
   #  (2..11).partitions(10)
@@ -12,7 +12,7 @@ class Range
   #  # => [0..0, 1..0]     ... i think its intractableness for soft landing.
   #  (11..2).partitions(10)
   #  # => []
-  def partitions(partitions, after_decimal =0)
+  def partitions(partitions, after_decimal=0)
     left, right = self.first, self.last
     partitions, after_decimal  = partitions.to_i, after_decimal.to_i
     tick        = 1.0 / (10 ** after_decimal)

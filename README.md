@@ -10,3 +10,5 @@ you can use repository-url with license as a substitute for under license writte
 ### for example at your pick and paste code.
     # this code under the MIT License.
     # we can substitute for terms. see: https://github.com/Chiether/ludicrousby
+
+YES! I dont like nagging. unnecessary license written when you pick and copy a little of simple code.

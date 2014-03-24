@@ -1,21 +1,19 @@
 ludicRoUsBY
 ===========
- Slight ruby extensions.
- Of course, its all ludicrous.
-
-WARNING: **This ruby extension write code with OpenClass.**
+ WARNING: **This ruby extension write code with OpenClass.**
+ Slight ruby extensions. Of course, its all ludicrous.
 
 
 LICENSE
 -------
  MIT License. but... **copyright holders is this repository**(or publishing url).
-
  You can use repository or publishing URL with license as a substitute for under license written.
 
- For example at your pick and paste code.
     # this code under the MIT License.
     # we can substitute for terms. see: https://github.com/Chiether/ludicrousby
-    or
+
+ or
+
     # X11: https://github.com/Chiether/ludicrousby
 
  YES! **I dont like nagging**.
@@ -24,25 +22,27 @@ LICENSE
 
 INSTALL
 -------
+ Pick and paste some codes and managing your project-code.
+ or you can build and install gem.
+ 
 1. git clone
 2. gem build ludicrousby.gemspec
 3. gem install ludicrousby
-or
-pick and paste some codes and managing your project-code.
+
 
 USAGE
 -----
-require 'ludicrousby'
+    require 'ludicrousby'
+
 
 CONTRIBUTING
 ------------
-Cheer! please contributing your idea, code, weeding.
+ Cheer! please contributing your idea, code, weeding.
 
-My first language are Japanese. maybe I have a little trouble(wrong grammer, etc...).
-
-But.. We have no fear! because we are perfectly Alphan-citizen.
-
-Lets say: HAPPINESS IS MANDATORY!
+ My first language are Japanese.
+ Maybe I have a little trouble(wrong grammer, etc...).
+ But we have no fear! because we are perfectly Alphan-citizen.
+ Lets say: HAPPINESS IS MANDATORY!
 
 
 ### post your idea

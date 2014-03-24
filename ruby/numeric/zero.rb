@@ -1,4 +1,4 @@
-class Integer
+class Numeric
   # receiver is zero?
   # @return [Boolean] condition
   # @example

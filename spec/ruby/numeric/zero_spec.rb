@@ -1,5 +1,5 @@
-require './ruby/integer/zero'
-describe Integer do
+require './ruby/numeric/zero'
+describe Numeric do
   describe '#zero?' do
     subject{ receiver.zero? }
     context 'when receiver is 0' do

@@ -7,7 +7,7 @@ class Integer
   #  !! THIS METHOD IS NOT ActiveSupport::NumberHelper.number_to_currency !!
   # @note
   #  'Ruby逆引きハンドブック' ISBN978-4863540224 says:
-  #  number.to_s.gsub(/(?<=\d)(?=(?:\d{3})+(?!\d))/, ',')
+  #  number.to_s.gsub(...)
   #  But its can not support lakh/crore (IndianNumberingSystem)
   # @note
   #  Return thanks to 'Universal Shell Programming Lab' and Tukubai.

@@ -1,6 +1,6 @@
 module Enumerable
   # get proportions.
-  # @param [Numeric, Symbol] Numeric:base. :max using max in values. :min using min in values.
+  # @param [Numeric, Symbol] base Numeric using param. :max using max in values. :min using min in values.
   # @return [Array<Number>] converted proportion points (caution: returned float-class but not fixed.)
   # @note Support enumerable of Array, Hash, Range
   # @example

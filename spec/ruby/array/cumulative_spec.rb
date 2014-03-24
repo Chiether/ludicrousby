@@ -1,13 +1,18 @@
 require './ruby/array/cumulative'
 describe Array do
-  subject{ receiver }
-  context 'when receiver is [1, 2, 3, 4, 5]' do
-    let(:receiver){ [1, 2, 3, 4, 5] }
-    let(:cumulative){ [1, 3, 6, 10, 15] }
-    describe '#cumulative' do
+  describe '#cumulative' do
+    subject{ receiver }
+    context 'when receiver is [1, 2, 3, 4, 5]' do
+      let(:receiver){ [1, 2, 3, 4, 5] }
+      let(:cumulative){ [1, 3, 6, 10, 15] }
       example{ expect(subject.cumulative).to eq cumulative }
     end
-    describe '#cumulative!' do
+  end
+  describe '#cumulative!' do
+    subject{ receiver }
+    context 'when receiver is [1, 2, 3, 4, 5]' do
+      let(:receiver){ [1, 2, 3, 4, 5] }
+      let(:cumulative){ [1, 3, 6, 10, 15] }
       context 'with receive(:cumulative){ [1,2,3] } - called not bang_method' do
         example{
           subject.cumulative!

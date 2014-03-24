@@ -1,4 +1,5 @@
-require './ruby/integer/comma'
+require 'spec_helper'
+
 describe Integer do
   describe '#comma' do
     subject{ receiver.comma(*params) }

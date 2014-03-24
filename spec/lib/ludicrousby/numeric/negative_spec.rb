@@ -1,4 +1,5 @@
-require './ruby/numeric/negative'
+require 'spec_helper'
+
 describe Numeric do
   describe '#negative?' do
     subject{ receiver.negative? }

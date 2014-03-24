@@ -1,4 +1,5 @@
-require './ruby/array/proportion'
+require 'spec_helper'
+
 describe Array do
   describe '#proportion' do
     subject{ receiver.proportion(param) }

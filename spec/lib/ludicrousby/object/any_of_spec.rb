@@ -1,4 +1,5 @@
-require './ruby/object/any_of'
+require 'spec_helper'
+
 describe Object do
   describe '#any_of? (*params)' do
     subject{ receiver.any_of? *params }

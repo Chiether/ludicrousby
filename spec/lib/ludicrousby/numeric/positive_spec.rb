@@ -1,4 +1,5 @@
-require './ruby/numeric/positive'
+require 'spec_helper'
+
 describe Numeric do
   describe '#positive?' do
     subject{ receiver.positive? }

@@ -1,4 +1,5 @@
-require './ruby/array/cumulative'
+require 'spec_helper'
+
 describe Array do
   describe '#cumulative' do
     subject{ receiver }

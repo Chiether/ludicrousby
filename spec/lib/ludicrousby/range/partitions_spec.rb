@@ -1,4 +1,5 @@
-require './ruby/range/partitions'
+require 'spec_helper'
+
 describe Range do
   describe '#partition' do
     subject{ receiver.partitions(*params) }

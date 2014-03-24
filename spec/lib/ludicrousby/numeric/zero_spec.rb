@@ -1,4 +1,5 @@
-require './ruby/numeric/zero'
+require 'spec_helper'
+
 describe Numeric do
   describe '#zero?' do
     subject{ receiver.zero? }

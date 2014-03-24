@@ -1,4 +1,5 @@
-require './ruby/float/digit_numbers'
+require 'spec_helper'
+
 describe Float do
   subject{ receiver.digit_numbers }
   context 'when receiver is 123.456780' do

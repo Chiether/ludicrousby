@@ -12,10 +12,10 @@ class Range
   #  # => [0..0, 1..0]     ... i think its intractableness for soft landing.
   #  (11..2).partitions(10)
   #  # => []
-  def partitions(partitions, after_decimal=0)
-    left, right = self.first, self.last
+  def partitions(partitions, after_decimal = 0)
+    left, right = first, last
     partitions, after_decimal  = partitions.to_i, after_decimal.to_i
-    tick        = 1.0 / (10 ** after_decimal)
+    tick        = 1.0 / (10**after_decimal)
     interval    = ((right.to_f - left.to_f + tick) / partitions) - tick
     result = []
     while left <= right
@@ -26,5 +26,4 @@ class Range
     end
     return result
   end
-
 end

@@ -18,7 +18,7 @@ class Integer
   #  -12345000.comma(3)   #=> -12,345,000
   #   12345000.comma(4)   #=> 1234,5000
   #  -12345000.comma(3,2) #=> -1,23,45,000
-  def comma(digit_number, reiterate=nil)
+  def comma(digit_number, reiterate = nil)
     return '-' + (-self).comma(digit_number, reiterate) if self < 0
     reiterate ||= digit_number
     digit_number = digit_number.to_i
@@ -26,13 +26,13 @@ class Integer
     transact = self
     partitions = []
     while transact != 0
-      separator  =  (10 ** digit_number)
+      separator  =  (10**digit_number)
       partitions << (transact % separator).to_s.rjust(digit_number, '0')
       transact   =  (transact / separator.to_f).to_i
       digit_number = reiterate
     end
     partitions.reverse!
     partitions[0] = partitions[0].to_i.to_s
-    return partitions.join(',')
+    return  partitions.join(',')
   end
 end

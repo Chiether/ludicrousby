@@ -2,6 +2,7 @@ require 'ludicrousby/version'
 
 require 'ludicrousby/array/cumulative'
 require 'ludicrousby/array/proportion'
+require 'ludicrousby/array/table'
 
 require 'ludicrousby/date/days_in_month'
 

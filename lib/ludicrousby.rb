@@ -7,6 +7,8 @@ require 'ludicrousby/date/days_in_month'
 
 require 'ludicrousby/float/digit_numbers'
 
+require 'ludicrousby/hash/deletes'
+
 require 'ludicrousby/integer/comma'
 
 require 'ludicrousby/numeric/positive'

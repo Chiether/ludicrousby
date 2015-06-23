@@ -10,16 +10,12 @@ module Enumerable
   def proportion(base = :max)
     hash_mode = self.is_a?(Hash) ? true : false
     values = hash_mode ? self.values : to_a
-    base = case base
-             when :max then values.max
-             when :min then values.min
-             else; base
-           end
+    base = values.send(base) if [:max, :min].include?(base)
     return case hash_mode
-             when true
-               Hash[map { |key, value| [key, value.to_f / base.to_f] }]
-             else
-               map { |value| value.to_f / base.to_f }
+           when true
+             Hash[map { |key, value| [key, value.to_f / base.to_f] }]
+           else
+             map { |value| value.to_f / base.to_f }
            end
   end
 end

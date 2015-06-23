@@ -5,3 +5,17 @@ Metrics/LineLength:
 Style/RedundantReturn:
   Enabled: false
 
+AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+# Do not over 100+
+Metrics/MethodLength:
+  Max: 15
+
+# Do not over 30+
+# See: https://gist.github.com/onk/38bfbd78899d892e0e83
+Metrics/AbcSize:
+  Max: 23

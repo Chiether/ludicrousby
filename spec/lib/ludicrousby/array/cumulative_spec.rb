@@ -17,17 +17,17 @@ describe Array do
       context 'with receive(:cumulative){ [1,2,3] } - called not bang_method' do
         example do
           subject.cumulative!
-          expect(subject).to eq cumulative
+          expect(subject).to eq(cumulative)
         end
         example('receive(:cumulative).once -- called non bang_method')do
           expect(subject).to receive(:cumulative).once { [1, 2, 3] }
           subject.cumulative!
-          expect(subject).to eq receiver
+          expect(subject).to eq(receiver)
         end
         example('receive(:replace).once -- I am bang_method')do
           expect(subject).to receive(:replace).once
           subject.cumulative!
-          expect(subject).to eq receiver
+          expect(subject).to eq(receiver)
         end
       end
     end

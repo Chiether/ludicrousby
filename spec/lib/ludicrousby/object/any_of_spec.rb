@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Object do
   describe '#any_of? (*params)' do
-    subject { receiver.any_of? *params }
+    subject { receiver.any_of?(*params) }
     context 'when receiver is "sample"' do
       let(:receiver) { 'sample' }
       context 'with (nil, :sample, "polish")' do

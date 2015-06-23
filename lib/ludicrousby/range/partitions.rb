@@ -13,8 +13,10 @@ class Range
   #  (11..2).partitions(10)
   #  # => []
   def partitions(partitions, after_decimal = 0)
-    left, right = first, last
-    partitions, after_decimal  = partitions.to_i, after_decimal.to_i
+    left = first
+    right = last
+    partitions = partitions.to_i
+    after_decimal = after_decimal.to_i
     tick        = 1.0 / (10**after_decimal)
     interval    = ((right.to_f - left.to_f + tick) / partitions) - tick
     result = []

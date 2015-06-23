@@ -20,7 +20,11 @@
   </head>
   <body>
     <script type="text/javascript" charset="utf-8">
-      if (window.top.frames.main) {
+      var hasFrames = false;
+      try {
+        hasFrames = window.top.frames.main ? true : false;
+      } catch (e) { }
+      if (hasFrames) {
         document.getElementById('base_target').target = 'main';
         document.body.className = 'frames';
       }
@@ -68,6 +72,18 @@
   <li class="r2 ">
     <span class='object_link'><a href="Array.html#cumulative%21-instance_method" title="Array#cumulative! (method)">#cumulative!</a></span>
     <small>Array</small>
+  </li>
+  
+
+  <li class="r1 ">
+    <span class='object_link'><a href="Date.html#days_in_month-instance_method" title="Date#days_in_month (method)">#days_in_month</a></span>
+    <small>Date</small>
+  </li>
+  
+
+  <li class="r2 ">
+    <span class='object_link'><a href="Hash.html#deletes-instance_method" title="Hash#deletes (method)">#deletes</a></span>
+    <small>Hash</small>
   </li>
   
 

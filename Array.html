@@ -6,7 +6,7 @@
 <title>
   Class: Array
   
-    &mdash; Documentation by YARD 0.8.7.3
+    &mdash; Documentation by YARD 0.8.7.6
   
 </title>
 
@@ -17,7 +17,7 @@
 <script type="text/javascript" charset="utf-8">
   hasFrames = window.top.frames.main ? true : false;
   relpath = '';
-  framesUrl = "frames.html#!" + escape(window.location.href);
+  framesUrl = "frames.html#!Array.html";
 </script>
 
 
@@ -235,7 +235,7 @@
 
 <span class='kw'>def</span> <span class='id identifier rubyid_cumulative'>cumulative</span>
   <span class='id identifier rubyid_memo'>memo</span> <span class='op'>=</span> <span class='int'>0</span>
-  <span class='kw'>return</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_map'>map</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id identifier rubyid_i'>i</span><span class='op'>|</span> <span class='id identifier rubyid_memo'>memo</span><span class='op'>+=</span><span class='id identifier rubyid_i'>i</span><span class='rbrace'>}</span>
+  <span class='kw'>return</span> <span class='id identifier rubyid_map'>map</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_i'>i</span><span class='op'>|</span> <span class='id identifier rubyid_memo'>memo</span> <span class='op'>+=</span> <span class='id identifier rubyid_i'>i</span> <span class='rbrace'>}</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -308,7 +308,7 @@
       <pre class="code"><span class="info file"># File 'lib/ludicrousby/array/cumulative.rb', line 18</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_cumulative!'>cumulative!</span>
-  <span class='kw'>return</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_replace'>replace</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_cumulative'>cumulative</span>
+  <span class='id identifier rubyid_replace'>replace</span> <span class='id identifier rubyid_cumulative'>cumulative</span>
 <span class='kw'>end</span></pre>
     </td>
   </tr>
@@ -320,9 +320,9 @@
 </div>
 
     <div id="footer">
-  Generated on Mon Mar 24 21:14:08 2014 by
+  Generated on Tue Jun 23 15:46:56 2015 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.8.7.3 (ruby-2.0.0).
+  0.8.7.6 (ruby-2.1.5).
 </div>
 
   </body>

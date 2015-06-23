@@ -1,0 +1,13 @@
+lib/ludicrousby.rb e771f55e00cd17d0ce9173734e96e10a140dac7d
+lib/ludicrousby/version.rb 637a92d35fe2c8dda0f1dc07f14d7e772adde688
+lib/ludicrousby/hash/deletes.rb f6bcc57f9b4fd99e3a0749528dfdc462102b517a
+lib/ludicrousby/numeric/zero.rb 109d1816a77e7f60db47d36db192eedbd51f9639
+lib/ludicrousby/integer/comma.rb 931effff2c94c3109d238a7540f621139b72b451
+lib/ludicrousby/object/any_of.rb 9ea58ae12bb0960d78a90932aac620270ec26758
+lib/ludicrousby/numeric/negative.rb ca55d3dded2e05887fd587c1fec85a2e37d99721
+lib/ludicrousby/numeric/positive.rb 35ce8daf48ad722153e6c0fb84da0537582b582d
+lib/ludicrousby/array/cumulative.rb 761849ed17f65488839ea637bb8c04c023cd9dab
+lib/ludicrousby/range/partitions.rb 16dc27dd36669a9d30adfa5caad1ac7bd0e87661
+lib/ludicrousby/array/proportion.rb bb355afe2e3f1352939f87e8baa559f365940602
+lib/ludicrousby/date/days_in_month.rb 897816011bb9b2e8a45d76953af9d3c296e99d84
+lib/ludicrousby/float/digit_numbers.rb ed67167eacc536f3bfe3f7b1f51f7a76fa726c1b

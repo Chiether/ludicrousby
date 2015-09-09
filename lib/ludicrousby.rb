@@ -18,3 +18,5 @@ require 'ludicrousby/numeric/negative'
 require 'ludicrousby/object/any_of'
 
 require 'ludicrousby/range/partitions'
+
+require 'ludicrousby/string/calculate'
